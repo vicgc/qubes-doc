@@ -54,8 +54,7 @@ To use this mode you need to:
 
    - Choose `configuration slot 2`.
    - It is recommended to enable `Require user input (button press)` but this is optional.
-   - Note: Different from the above video, use the following settings select
-   `HMAC-SHA1 mode`: `fixed 64 bit input`.
+   - HMAC-SHA1 Mode: `Variable input`.
    - We will refer the `Secret Key (20 bytes hex)` as `AESKEY`.
       - It is recommended to keep a backup of your `AESKEY` in an offline VM used as a vault.
       - Consider keeping a backup of your `AESKEY` on paper and storing it in a safe place.
